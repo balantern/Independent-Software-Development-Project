@@ -1,1 +1,9 @@
-/*style here*/
+p {
+    font-style: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+  font-style: Times New Roman, serif;
+  font-size: 20px;
+}
