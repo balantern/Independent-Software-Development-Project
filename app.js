@@ -3,5 +3,5 @@ $(function() {
     
     var formMessages = $('#form-messages');
 
-    // TODO: The rest of the code will go here...
+    // http://blog.teamtreehouse.com/create-ajax-contact-form
 });
