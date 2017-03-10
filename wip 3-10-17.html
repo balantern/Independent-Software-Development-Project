@@ -1,21 +1,35 @@
-<form id = "ajax-contact" method = "post" action = "mailer.php">
-    <div class = "field">
-        <label for = "email">Email</label>
-        <input type = "email" id = "email" name = "email" required>
-    </div>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
 
-    <div class = "field">
-      <label for = "subject">Subject</label>
-      <textarea id = "subject" name = "subject" required></textarea>
-    </div>
-    
-    <div class = "field">
-        <label for = "message">Message</label>
-        <textarea id = "message" name = "message" required></textarea>
-    </div>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src = app.js></script>
 
-    <div class="field">
-        <button type = "submit">Submit</button>
-    </div>
+  <div id = "form-messages"></div> 
+  
+  <form id = "ajax-contact" method = "post" action = "mailer.php">
+      <div class = "field">
+          <label for = "email">Email</label>
+          <input type = "email" id = "email" name = "email" required>
+      </div>
+  
+      <div class = "field">
+        <label for = "subject">Subject</label>
+        <textarea id = "subject" name = "subject" required></textarea>
+      </div>
+     
+     <div class = "field">
+          <label for = "message">Message</label>
+          <textarea id = "message" name = "message" required></textarea>
+      </div>
+
+      <div class="field">
+          <button type = "submit">Submit</button>
+      </div>
     
-</form>
+  </form>
+
+</body>
+</html>
