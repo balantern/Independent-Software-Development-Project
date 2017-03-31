@@ -1,4 +1,4 @@
-$(function() {
+jQuery(document).ready( function ($) {
     var form = $('#supplies-services-request');
     
     var formMessages = $('#form-messages');
