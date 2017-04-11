@@ -1,8 +1,0 @@
-<form action="https://formspree.io/vanilllalilyviola@gmail.com" method = "POST">
-    Email: <input type = "email" name = "From">
-    <input type = "hidden" name = "_cc" value = "cathermusique@gmail.com">
-    <br>Subject: <input type="text" name="Subject">
-    <br>Message: <input type="text" name="Message">
-    <br><input type="submit" value="Send">
-    <input type = "hidden" value = "_gotcha">
-</form>
